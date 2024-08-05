@@ -1,107 +1,160 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: #1f2937;
-    margin: auto;
-    height: 350px;
+  background-color: #1f2937;
+  margin: auto;
+  height: 350px;
 }
 
 .page-logo {
-    color: #f9faf8;
-    font-size: 24px;
-   
+  color: #f9faf8;
+  font-size: 24px;
 }
 
 ul {
-    list-style-type: none;
-    font-size: 18px;
-    display: flex;
-    gap: 35px;
-   /* justify-content: flex-end; */
-
+  list-style-type: none;
+  font-size: 18px;
+  display: flex;
+  gap: 35px;
+  /* justify-content: flex-end; */
 }
 
 a {
-    color: #e7e5e7;
-    text-decoration: none;
+  color: #e7e5e7;
+  text-decoration: none;
 }
 
 .logo-and-menu-links {
-    display: flex;
-    justify-content: space-around;
-padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
 }
 
 .header-txt {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: 900;
-
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
 }
 .header-txt-button-img-holder {
-    padding: 85px;
-    display: flex;
-    justify-content: space-evenly;  
-    gap: 150px;
-    
+  padding: 85px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 150px;
 }
 
 .header-small-txt {
-    font-size: 18px;
-    color: #e7e5e7;
-    margin: 8px;
-    }
-
-    .img-placeholder {
-        background-color: gray;
-        opacity: 0.5;
-        padding: 50px;
-        color: #f9faf8;
-    }
-    
-  .signup-btn {
-    cursor: pointer;
-    border: solid rgb(56, 130, 246);
-    font-family: Roboto;
-    font-size: 13px;
-    color: rgb(255, 255, 255);
-    padding: 8px 30px;
-    width: 115px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 10px;
-    background: linear-gradient(90deg, rgb(56, 130, 246) 0%, rgb(56, 130, 246) 100%);
-    font-weight: 500;
-  }
-
-  .two-txt {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
-    display: flex;
-    justify-content: center;
-   padding: 35px;
-  }
-
-  .information-container {
-    display: flex;
-    justify-content:  center;
-    gap: 52px;
-  }
-
-  .info {
-    border: 3px solid #3882f6;
-    border-radius: 10px;
-    padding: 35px;
-    width: 150px;
-    height: 125px;
-  }
-
-.text {
-    text-align: center;
-  
+  font-size: 18px;
+  color: #e7e5e7;
+  margin: 8px;
 }
 
+.img-placeholder {
+  background-color: gray;
+  opacity: 0.5;
+  padding: 50px;
+  color: #f9faf8;
+}
+
+.signup-btn {
+  cursor: pointer;
+  border: solid rgb(56, 130, 246);
+  font-family: Roboto;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  padding: 8px 30px;
+  width: 115px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgb(56, 130, 246) 0%,
+    rgb(56, 130, 246) 100%
+  );
+  font-weight: 500;
+}
+
+.two-txt {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.information-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Optional, for centering the content */
+}
+
+.blue-square-container {
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  margin-top: 50px;
+}
+
+.blue-square {
+  border: solid 5px #3882f6;
+  border-radius: 15px; /* Replace with your desired color */
+  width: 100%;
+  height: 100%;
+}
+
+.inspo-quote-container {
+  background-color: #e5e7eb;
+  padding: 150px;
+  margin-top: 100px;
+}
+
+.long-text-quote {
+  font-size: 36px;
+  color: #1f2937;
+}
+.undername {
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.modal-button-container {
+  border-radius: 10px;
+  background-color: #3882f6;
+  padding: 80px;
+  margin: 125px;
+  color: #e5e7eb;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-btn {
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  
+  background-color: #3882f6;
+  width: 130px;
+  color: #e7e5e7;
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 50px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
